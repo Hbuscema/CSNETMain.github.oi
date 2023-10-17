@@ -1,14 +1,4 @@
-# NFT Marketplace V3
-
-Create an NFT marketplace on top of your NFT collection on **any** EVM-compatible blockchain.
-
-## Installation
-
-Install via [thirdweb create](https://portal.thirdweb.com/cli/create)
-
-```bash
-  npx thirdweb create --template marketplace-v3
-```
+# CS2 Marketplace
 
 ## Run Locally
 
@@ -27,6 +17,8 @@ Start the server
 ```bash
   # npm
   npm run start
+or
+  npm run dev
 
   # yarn
   yarn start
