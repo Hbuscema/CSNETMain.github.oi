@@ -16,8 +16,8 @@ export function Navbar() {
         <div className={styles.navLeft}>
           <Link href="/" className={`${styles.homeLink} ${styles.navLeft}`}>
             <Image
-              src="/logo.png"
-              width={48}
+              src="/Logo.png"
+              width={120}
               height={48}
               alt="NFT marketplace sample logo"
             />
@@ -29,6 +29,12 @@ export function Navbar() {
             </Link>
             <Link href="/sell" className={styles.link}>
               Sell
+            </Link>
+            <Link href="/Blog" className={styles.link}>
+              Blog
+            </Link>
+            <Link href="/Faq" className={styles.link}>
+              FAQ
             </Link>
           </div>
         </div>

@@ -11,8 +11,8 @@ export default function Buy() {
 
   return (
     <Container maxWidth="lg">
-      <h1>Buy NFTs</h1>
-      <p>Browse which NFTs are available from the collection.</p>
+      <h1>Buy CS2 Items</h1>
+      <p>Browse which CS2 Items are available from the collection.</p>
       <NFTGrid
         data={data}
         isLoading={isLoading}
@@ -20,6 +20,7 @@ export default function Buy() {
           "Looks like there are no NFTs in this collection. Did you import your contract on the thirdweb dashboard? https://thirdweb.com/dashboard"
         }
       />
+      
     </Container>
   );
 }
